@@ -1,0 +1,37 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BywOC4kR.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/fonts/muoto/Muoto-Light-Italic.woff": {
+    "file": "assets/Muoto-Light-Italic-C5K9Dm7e.woff",
+    "src": "resources/fonts/muoto/Muoto-Light-Italic.woff"
+  },
+  "resources/fonts/muoto/Muoto-Light-Italic.woff2": {
+    "file": "assets/Muoto-Light-Italic-Cw2DQ4hI.woff2",
+    "src": "resources/fonts/muoto/Muoto-Light-Italic.woff2"
+  },
+  "resources/fonts/muoto/Muoto-Light.woff": {
+    "file": "assets/Muoto-Light-BMdwLnQA.woff",
+    "src": "resources/fonts/muoto/Muoto-Light.woff"
+  },
+  "resources/fonts/muoto/Muoto-Light.woff2": {
+    "file": "assets/Muoto-Light-DGk-Tzau.woff2",
+    "src": "resources/fonts/muoto/Muoto-Light.woff2"
+  },
+  "resources/fonts/muoto/Muoto-Regular.woff": {
+    "file": "assets/Muoto-Regular-BYVJEdsc.woff",
+    "src": "resources/fonts/muoto/Muoto-Regular.woff"
+  },
+  "resources/fonts/muoto/Muoto-Regular.woff2": {
+    "file": "assets/Muoto-Regular-KNkP-Kmm.woff2",
+    "src": "resources/fonts/muoto/Muoto-Regular.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CVdyQIdN.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

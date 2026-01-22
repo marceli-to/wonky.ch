@@ -1,0 +1,33 @@
+{
+    "ocrbregular": {
+        "normal": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/galerieschmid.com\/storage\/fonts\/\/ocrbregular-normal_52b74ff25e66b8272cd810f48714ec8a"
+    },
+    "calibriregular": {
+        "normal": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/galerieschmid.com\/storage\/fonts\/\/calibriregular_normal_d0c601ed89fe6fb1ddc7b680a26306f5"
+    },
+    "calibribold": {
+        "normal": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/galerieschmid.com\/storage\/fonts\/\/calibribold_normal_0ee0a87666611571ab0d1fa1298a0f5e",
+        "bold": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/galerieschmid.com\/storage\/fonts\/\/calibribold_bold_edd4e62e65ad1d10f9a6a1dd0521a923"
+    },
+    "effraregular": {
+        "normal": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/galerieschmid.com\/storage\/fonts\/\/effraregular_normal_70b9da2dcc7f4d7ada5836f9559b9d64"
+    },
+    "effrabold": {
+        "bold": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/galerieschmid.com\/storage\/fonts\/\/effrabold_bold_f077803178fd74236d4536c99aae9f54"
+    },
+    "avenirnextltw01-medium": {
+        "normal": "avenirnextltw01_medium_normal_7e6d9fdcbdefc7eb11bebde9efa4fdf2"
+    },
+    "avenirnextltw01-bold": {
+        "bold": "avenirnextltw01_bold_bold_264f1fae703b1cdb3bfbb8143ab6cf5b"
+    },
+    "europalight": {
+        "300": "europalight_300_1b3124f2f6bea0d6b1a2a926a5e03d00"
+    },
+    "europaregular": {
+        "normal": "europaregular_normal_ec3101ad534e99eb4c9044e2b6629217"
+    },
+    "europabold": {
+        "bold": "europabold_bold_89d0b1a2e1ea0020ce909612657c8f32"
+    }
+}

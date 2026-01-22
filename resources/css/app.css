@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "./fonts.css";
+@import "./spacing.css";
+
+@theme {
+  --font-sans: 'Muoto-Regular', sans-serif;
+  --font-light: 'Muoto-Light', sans-serif;
+  --font-light-italic: 'Muoto-Light-Italic', sans-serif;
+
+  --color-olive: #646E23;
+  --color-maroon: #782414;
+  --color-ash: #969696;
+
+  --text-xxs: 0.9375rem; /* 15px */
+  --text-xs: 1.063rem;   /* 17px */
+  --text-sm: 1.125rem;   /* 18px */
+  --text-md: 1.375rem;   /* 22px */
+  --text-lg: 1.75rem;    /* 28px */
+}
+
+@layer base {
+  :root {
+    --header-height-sm: 6.5625rem;  /* 105px */
+    --header-height-lg: 7.5rem; /* 120px */
+    --header-height-expanded: 6.25rem; /* 100px */
+    --footer-height-sm: 25rem; /* 400px */
+    --footer-height-lg: 10rem; /* 160px */
+    --logo-height-sm: 1.6875rem; /* 27px */
+    --logo-height-expanded: 5rem; /* 80px */
+    --grid-columns: 12;
+    --grid-gap: 1.25rem; /* 20px */
+    --col-width: calc((100% - (11 * var(--grid-gap))) / var(--grid-columns));
+  }
+
+  [x-cloak] {
+    display: none;
+  }
+
+  p:not(:last-child),
+  ul:not(:last-child) {
+    @apply mb-16 lg:mb-24;
+  }
+
+  p.text-large {
+    @apply text-md lg:text-lg;
+  }
+
+  p.text-large:not(:last-child) {
+    @apply mb-20 lg:mb-36;
+  }
+
+  p:not(.text-large) {
+    @apply max-w-prose;
+  }
+
+  p:has(+ ul) {
+    @apply !mb-0;
+  }
+
+  strong {
+    @apply font-sans;
+  }
+
+}
+
+/* Offset utilities */
+@utility offset-col-6-inset {
+  left: calc(var(--col-width) * 5 + var(--grid-gap) * 5 - 1.25rem);
+}
+
+@utility offset-col-7 {
+  left: calc(var(--col-width) * 6 + var(--grid-gap) * 6);
+}
+
+@utility offset-col-8 {
+  left: calc(var(--col-width) * 7 + var(--grid-gap) * 7);
+}
+
+@utility offset-col-8-inset {
+  left: calc((var(--col-width) * 7 + var(--grid-gap) * 7) - 1.25rem);
+}
+
+/* Width utilities */
+@utility w-col-5 {
+  width: calc(var(--col-width) * 5 + var(--grid-gap) * 4);
+}
+
+@utility w-col-6 {
+  width: calc(var(--col-width) * 6 + var(--grid-gap) * 5);
+}
+
+/* Width with padding */
+@utility w-col-3-padded {
+  width: calc(var(--col-width) * 3 + var(--grid-gap) * 2 + 2.5rem);
+}
+
+@utility w-col-5-padded {
+  width: calc(var(--col-width) * 5 + var(--grid-gap) * 4 + 1.25rem);
+  padding-left: 1.25rem;
+}
+
+@utility pl-half-col {
+  padding-left: calc((100vw - (11 * var(--grid-gap))) / var(--grid-columns) / 2);
+}
+
+@utility no-spinner {
+  appearance: none;
+  -moz-appearance: textfield;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    appearance: none;
+  }
+}
