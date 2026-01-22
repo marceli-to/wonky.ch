@@ -35,7 +35,7 @@ class StripeService
                 'price_data' => [
                     'currency' => $currency,
                     'product_data' => [
-                        'name' => $item['name'].(! empty($item['label']) ? ' - '.$item['label'] : ''),
+                        'name' => $item['title'].(! empty($item['label']) ? ' - '.$item['label'] : ''),
                     ],
                     'unit_amount' => (int) round($item['price'] * 100), // Convert to cents
                 ],
@@ -48,7 +48,7 @@ class StripeService
                     'price_data' => [
                         'currency' => $currency,
                         'product_data' => [
-                            'name' => 'Versand: '.$item['name'],
+                            'name' => 'Versand: '.$item['title'],
                         ],
                         'unit_amount' => (int) round($item['shipping_price'] * 100),
                     ],

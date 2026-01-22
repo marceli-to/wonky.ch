@@ -104,6 +104,9 @@ class Summary extends Component
             $this->redirect($session->url);
 
         } catch (\Exception $e) {
+            \Log::error('Stripe checkout error: ' . $e->getMessage(), [
+                'trace' => $e->getTraceAsString(),
+            ]);
             session()->flash('error', 'Zahlung konnte nicht initialisiert werden. Bitte versuchen Sie es erneut.');
         }
     }

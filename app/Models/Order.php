@@ -195,7 +195,7 @@ class Order extends Model
 
         foreach ($cart['items'] as $item) {
             $order->items()->create([
-                'product_name' => $item['name'],
+                'product_name' => $item['title'],
                 'product_label' => $item['label'] ?? null,
                 'product_description' => $item['description'] ?? null,
                 'product_price' => $item['price'],
